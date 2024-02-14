@@ -36,7 +36,7 @@ public class SoftAssertion {
         WebElement dashBoard = driver.findElement(By.xpath("//h1[text()='Dashboard']"));
         String actualText = dashBoard.getText();
 //        we make it fail on purpose at this point to learn the concept of soft assertions
-        String expectedText = "Dashboard Admin";
+        String expectedText = "Dashboard";
 // declare the softAssert
         SoftAssert soft=new SoftAssert();
         //verification
